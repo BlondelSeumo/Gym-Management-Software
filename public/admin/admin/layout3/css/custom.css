@@ -1,0 +1,357 @@
+/* here you can put your own css to customize and override the theme */
+
+/***
+Rounded Portlets
+***/
+/*
+.portlet {
+	border-radius: 4px !important;
+}
+
+.portlet .portlet-title {
+	border-radius: 4px 4px 0px 0px !important;
+}
+
+.portlet .portlet-body,
+.portlet .portlet-body .form-actions  {
+	border-radius: 0px 0px 4px 4px !important;
+}
+*/
+.page-header .page-header-top .page-logo .logo-default{
+    margin: 20.5px 0 0;
+    max-height: 33px;
+}
+
+.page-prefooter a, .page-prefooter h2{
+    color: #32c5d2;
+}
+
+.check-in-button{
+    padding: 25px;
+    text-align: center;
+    color: #fff;
+}
+
+
+ .style-class.select2-container .select2-choice{
+     background-image:unset;
+ }
+
+.search-content-1 .table.dataTable td.sorting_1, table.dataTable td.sorting_2, table.dataTable td.sorting_3, table.dataTable th.sorting_1, table.dataTable th.sorting_2, table.dataTable th.sorting_3{
+    background: #ffffff !important;
+    padding: 15px 0;
+}
+
+.search-content-1  .search-counter-number{
+    font-size: 21px;
+    color: #4e5a64;
+    margin-bottom: 15px;
+    text-align: center;
+    margin: 0;
+}
+
+.search-content-1 .search-counter-label
+{
+    font-size: 13px;
+    color: #8b96a4;
+    text-align: center;
+    margin: 0;
+}
+
+
+
+.merchant-notifications li .col2{
+    width: 104px;
+    margin-left: -111px;
+}
+
+.merchant-notifications li.unread{
+    background-color: #eeeeee;
+    color: #333333;
+}
+
+.margin-top-5{
+    margin-top: 5px;
+}
+
+.margin-top-15{
+    margin-top: 15px;
+}
+
+.margin-top-75{
+    margin-top: 75px;
+}
+
+.no-padding{
+    padding: 0 !important;
+}
+
+.padding-top-5{
+    padding-top: 5px;
+}
+
+.pricing-content-2{
+    background: none;
+}
+
+.banner{
+    position: relative;
+}
+
+.banner .overlay-wrapper{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.banner .overlay-area{
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+
+.banner .overlay-content{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.pricing-table-container .padding-fix:before{
+    margin-top: -100px;
+}
+
+.pricing-content-2 .pricing-table-container .price-column-container.featured-price>.price-feature-label{
+    margin: 0;
+    left: 0;
+    width: 100%;
+}
+
+.dataTable td{
+    outline: 0;
+}
+.dataTable .md-checkbox{
+    width: 20px;
+    margin: 0 auto;
+}
+
+.feeds li .col2{
+    width: 120px;
+    margin-left: -120px;
+}
+
+table.dataTable thead .sorting, table.dataTable thead .sorting_asc, table.dataTable thead .sorting_desc{
+    background: none;
+}
+
+.easy-pie-chart .number{
+    width: 150px;
+    height: 150px;
+    line-height: 150px;
+}
+
+.cropper-container{
+    max-height: 400px !important;
+}
+
+.portlet.calendar.light .fc-button, .portlet.calendar .fc-button .fc-icon{
+    top: 0;
+}
+
+.table-100{
+    width: 100% !important;
+}
+
+table.dataTable.dtr-inline.collapsed>tbody>tr>td:first-child:before, table.dataTable.dtr-inline.collapsed>tbody>tr>th:first-child:before{
+    height: 25px;
+    width: 25px;
+    line-height: 25px;
+    text-indent: 6px;
+    font-size: 22px;
+    top: 4px;
+}
+
+table.dataTable>tbody>tr.child ul.dropdown-menu{
+    display: none ;
+}
+
+.open>.dropdown-menu{
+    display: block !important;
+}
+
+.c-date{
+    font-size: 12px;
+}
+
+.mobile-quick-menu{
+    position: fixed;
+    bottom: 0;
+    z-index: 100;
+    width: 100%;
+    padding: 6px 0;
+}
+
+#quick-menu-modal .list-group-item:first-child {
+    border-top-right-radius:0;
+    border-top-left-radius: 0;
+    border-top: 0;
+}
+
+#quick-menu-modal .list-group-item{
+    padding: 15px;
+}
+
+#quick-menu-modal .list-group-item a{
+    color: #2f353b;
+}
+
+#my_camera, #my_webcam_result{
+    margin: 0 auto;
+    width: 640px;
+}
+
+.dataTables_wrapper .dataTables_processing{
+    padding: 7px;
+}
+
+.shortcut-menu{
+    margin: 13px 0 0;
+    float: left;
+}
+
+/* csv upload */
+.leadBox {
+    min-height:320px;
+    width:250px;
+    margin: 10px;
+}
+.leadOptions {
+    padding: 10px;
+    height: 150px;
+    vertical-align: middle;
+}
+.unchanged {
+    border: 2px solid #d0d0d0;
+}
+.matched {
+    border: 2px solid #52bad5;
+}
+.unmatched {
+    border: 2px solid #EE836E;
+}
+.leadSamples .sampleHeading, .leadSamples .sample {
+    padding: 5px 15px;
+    margin: 0px;
+}
+.unchanged .sampleHeading {
+    background-color: #e0e0e0;
+}
+.unchanged .sample {
+    background-color: #ffffff;
+}
+.matched .sampleHeading {
+    background-color: #52BAD5;
+}
+.matched .sample {
+    background-color: #B1E0EC;
+}
+.unmatched .sampleHeading {
+    background-color: #EE836E;
+}
+.unmatched .sample {
+    background-color: #FBE3E4;
+}
+.leadBox .unmatchedWarning {
+    color: #EE836E;
+}
+.leadBox .notimported {
+    padding: 5px 10px;
+    margin: 5px 0px;
+}
+.sampleHeading, .sample {
+    overflow-x: hidden;
+    max-height: 31px;
+    overflow-y: hidden;
+}
+
+.date-picker input {
+    background-color: #fff !important;
+}
+
+#attendanceTable > tbody > tr {
+    height: 165px;
+}
+/* csv upload end */
+
+/*i-card css*/
+.i-card-container{
+    margin: 4px;
+    padding: 5px;
+    border: 1px solid #000000;
+}
+
+.i-card-contact{
+    padding: 20px 0 5px 20px
+}
+
+.i-card-user-detail{
+    padding-top: 20px;
+}
+/*i-card css ends*/
+
+@media (min-width: 991px){
+
+    .total_checkin_count {
+        margin: 4% 0;
+    }
+
+    .checkin_btns{
+        margin: 4% 0;
+    }
+}
+
+@media (max-width: 991px){
+
+    .breadcrumb {
+        padding: 15px;
+    }
+
+    .bootstrap-timepicker-widget table td input{
+        width: 34px;
+    }
+
+    .portlet.calendar .mobile .fc-button{
+        padding-top: 10px;
+    }
+}
+@media (max-width: 767px){
+
+    .page-header .page-header-top .top-menu .navbar-nav>li.dropdown-extended.dropdown-notification>.dropdown-menu{
+        margin-right: -76px;
+    }
+
+    .page-header .page-header-top .top-menu .navbar-nav>li.dropdown-extended.dropdown-notification>.dropdown-menu:after, .page-header .page-header-top .top-menu .navbar-nav>li.dropdown-extended.dropdown-notification>.dropdown-menu:before{
+        margin-right: -81px;
+    }
+}
+
+@media (max-width: 480px){
+    .page-header .page-header-top .top-menu {
+        float: none;
+    }
+
+    .timeline .timeline-icon{
+        padding-top: 21px;
+        padding-left: 10px;
+    }
+
+
+    table.responsive tbody td{
+        max-width: 100% !important;
+    }
+
+}
+
+/*Empty datatable text to center*/
+.table-checkable tr > td.dataTables_empty {
+    text-align: center;
+}

@@ -1,0 +1,188 @@
+/**
+*****************************************
+@File: Softrait Theme Colors
+
+* This file contains the colors for the actual theme, this
+is the file you need to edit to change the color of the
+theme.
+*****************************************
+**/
+a{
+    color: #cf1010;
+}
+a:hover,a:active{
+    color: #c40e0e;
+
+
+}
+.primary-bg{
+    background: #cf1010;
+}
+.secondary-bg{
+    background: #24394c;
+}
+
+.primary-color{
+    color: #cf1010;
+}
+
+.btn-theme-primary{
+    background: #cf1010;
+    color: #fff;
+    border: 2px solid #cf1010;
+}
+.btn-theme-primary:hover{
+    background: #c40e0e;
+    border: 2px solid #c40e0e;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.box-style-1 > .primary-bg:hover,
+.box-style-2 > .primary-bg:hover{
+    background: #c40e0e;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+
+.owl-theme .owl-controls .owl-buttons div,
+.owl-theme .owl-controls .owl-page span{
+    background: #cf1010;
+}
+#main-navigation ul.dropdown-menu:before,
+#main-navigation ul.dropdown-menu:after{
+    border-bottom: 7px solid #24394c;
+    border-bottom: 7px solid #24394c;
+}
+
+#main-navigation .nav li.menu-alt a{
+    color: #cf1010;
+}
+#main-navigation.scrolled .nav a,
+#main-navigation.scrolled .nav a:active,
+#main-navigation.scrolled .nav a:hover {
+
+    color : #24394c;
+    transition : color 0.2s ease-in;
+}
+#main-navigation.scrolled .nav li.menu-alt a{
+    background: #24394c !important;
+    color: #fff !important;
+
+}
+#main-navigation .navbar-toggle {
+
+    border: 2px solid #24394c !important;
+
+}
+#main-navigation .navbar-toggle .icon-bar {
+    background-color: #24394c !important;
+}
+@media only screen and (max-width: 767px) {
+
+    #main-navigation .navbar-nav{
+        background: rgba(36, 57, 76, 0.9);
+    }
+    #main-navigation .navbar-nav li{
+        border-bottom: 1px solid #cf1010;
+    }
+    #main-navigation .navbar-nav .dropdown-menu{
+        background: #cf1010;
+    }
+    #main-navigation ul.dropdown-menu:before,
+    #main-navigation ul.dropdown-menu:after{
+        border-bottom: 7px solid transparent;
+        border-bottom: 7px solid transparent;
+    }
+
+
+}
+.video-overlay{
+    background-image: linear-gradient(to bottom, rgba(36, 57, 76, 0.8), rgba(36, 57, 76, 0.8));
+    background-image: -moz-linear-gradient(top, rgba(36, 57, 76, 0.8), rgba(36, 57, 76, 0.8));
+    background-image: -o-linear-gradient(top, rgba(36, 57, 76, 0.8), rgba(36, 57, 76, 0.8));
+    background-image: -webkit-linear-gradient(top, rgba(36, 57, 76, 0.8), rgba(36, 57, 76, 0.8));
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+#main-banner.secondary-overlay{
+    background-image: linear-gradient(to bottom, rgba(36, 57, 76, 0.9), rgba(36, 57, 76, 0.9)), url('../images/banner.png');
+    background-image: -moz-linear-gradient(top, rgba(36, 57, 76, 0.31), rgba(36, 57, 76, 0.62)), url('../images/banner.png');
+    background-image: -o-linear-gradient(top, rgba(36, 57, 76, 0.31), rgba(36, 57, 76, 0.62)), url('../images/banner.png');
+    background-image: -webkit-linear-gradient(top, rgba(36, 57, 76, 0.31), rgba(36, 57, 76, 0.62)), url('../images/banner.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+#video.secondary-overlay{
+    background-image: linear-gradient(to bottom, rgba(36, 57, 76, 0.9), rgba(36, 57, 76, 0.9)), url('../images/banner.png');
+    background-image: -moz-linear-gradient(top, rgba(36, 57, 76, 0.9), rgba(36, 57, 76, 0.9)), url('../images/banner.png');
+    background-image: -o-linear-gradient(top, rgba(36, 57, 76, 0.9), rgba(36, 57, 76, 0.9)), url('../images/banner.png');
+        background-image: -webkit-linear-gradient(top, rgba(36, 57, 76, 0.9), rgba(36, 57, 76, 0.9)), url('../images/banner.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+#testimonials figure.testimonial-card .author span {
+    color: #cf1010;
+
+}
+.full-width-tabs > ul.nav.nav-tabs > li > a:before,
+.full-width-tabs > ul.nav.nav-tabs > li > a:after{
+    border-bottom: 12px solid #c40e0e;
+    border-bottom: 12px solid #c40e0e;
+}
+.full-width-tabs > ul.nav.nav-tabs > li.active > a,
+.full-width-tabs > ul.nav.nav-tabs > li > a:hover{
+    background: #c40e0e;
+}
+.panel-default > .panel-heading {
+    background-color: #cf1010;
+}
+#faq-categories .nav-pills > li.active > a,
+#faq-categories .nav-pills > li.active > a:hover,
+#faq-categories .nav-pills > li.active > a:focus {
+    border-left: 3px solid #cf1010;
+}
+/*COMING SOON*/
+.newsletter_wrap {
+    border:4px solid #cf1010;
+}
+#mc-embedded-subscribe {
+    background-color:#cf1010;
+
+}
+.blog-card .details a:hover {
+    color: #cf1010;
+}
+.blog-card .description p:after {
+    background: #cf1010;
+}
+.blog-card .description a {
+    color: #cf1010;
+}
+.blog-meta span i{
+    color: #cf1010;
+}
+#custom-search-input button {
+    color:#cf1010;
+}
+.pricing-content .type {
+    background-color: #cf1010;
+}
+.pricing-content .price {
+    background-color: #24394c;
+}
+.modal-header{
+    background-color: #24394c !important;
+}
+/*BUTTON DEPTH COLOR*/
+.btn-theme-primary:hover,.btn-theme-primary:active,.btn-theme-primary:focus{
+    background: #c40e0e;
+    color: #fff;
+    transition: all 0.3s ease-in-out 0s;
+
+}
+
+

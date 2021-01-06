@@ -1,0 +1,46 @@
+Server Requirements
+
+The server needs to meet following requirements:-
+PHP >= 5.6.4 
+OpenSSL PHP Extension 
+PDO PHP Extension 
+Mbstring PHP Extension 
+Tokenizer PHP Extension 
+XML PHP Extension 
+GD PHP Extension 
+Fileinfo PHP Extension 
+Installation
+
+Pre-installation Requirements:
+File System Permissions
+You must set appropriate permissions for storage folder and it's subfolders. Set permissions to 777 storage folder and it's subfolder.
+After setting permissions you are ready to proceed to installation.
+After downloading the ZIP archive, and uploading it to your server, the first thing you have to do is to create a database where system tables will be created. Let's say fitsigma.
+
+Step 1 - Welcome Screen
+After creating the database next step is accessing the application URL from a browser. One thing you need to know is that Laravel is designed to allow HTTP access to the application from your public folder only. This means that this application will be available at yourdomain.com/public. It is good enough for installation and development purposes, however, for production, you will probably want to have your application available at yourdomain.com. In next section, I will show you how you can accomplish that.
+To open the installer. Visit  
+yourdomain.com/public/install
+
+
+Step 2 - Database/Environment Settings
+On step 2 you have to fill in your database credentials.
+
+
+Step 3 - System Requirements
+After clicking on "Next" button, you will be redirected to System Requirements step during the installation wizard, System Requirements.
+
+
+Step 4 - Directory Permissions
+After successfully enabling and installing all required PHP extensions, next step is to set the appropriate permissions for some system folders. All directories listed on step 4 has to be writable by the application, as it is displayed on the following picture.
+
+
+Step 5 - Finish
+Your application has been installed successfully.
+
+
+
+Now you are ready to go.
+Login details are:
+Username: admin
+Password: 123456

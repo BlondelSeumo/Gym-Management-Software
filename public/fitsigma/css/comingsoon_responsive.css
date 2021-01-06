@@ -1,0 +1,106 @@
+/*
+-----------------------------------------------------------------------------------
+	
+	Responsive Style
+	
+*/
+
+@media (min-width: 992px) and (max-width: 1199px) {
+	
+	.container{width:940px;}
+	
+	.coming_soon_block h1 {font-size:90px; line-height:70px;}
+	.coming_soon_block h2 {font-size:24px; line-height:24px; margin:0 0 50px;}
+	
+	.countdown {margin:0 0 40px;}
+	.countdown li {width:160px;}
+	.countdown li span {font-size:70px;}
+	
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	
+	.container{width:724px;}
+	
+	
+	.coming_soon_block h1 {font-size:90px; line-height:70px;}
+	.coming_soon_block h2 {font-size:24px; line-height:24px; margin:0 0 50px;}
+	
+	
+	.countdown {margin:0 0 40px;}
+	.countdown li {width:160px;}
+	.countdown li span {font-size:70px;}
+	
+	
+	.newsletter_wrap {width:90%;}
+	#mce-EMAIL {width:360px;}
+	
+
+}
+
+@media (max-width: 767px) {
+	
+	.container{width:auto;}
+	
+	.coming_soon_block {padding:50px 0;}
+	
+	.coming_soon_block h1 {font-size:40px; line-height:40px; margin:0 0 10px;}
+	.coming_soon_block h2 {font-size:14px; line-height:20px; margin:0 0 30px;}
+	
+	
+	.countdown li {width:70px;}
+	.countdown li span {font-size:40px; line-height:40px; padding:0 0 5px;}
+	.countdown li p {font-size:12px;}
+	
+	
+	.newsletter_wrap {width:85%;}
+	#mce-EMAIL {display:block; width:85%; margin:0 auto 10px;}
+
+
+}
+
+@media (max-width: 479px) {
+	
+	
+	
+	
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,36 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<!--
+2016-6-8: Created.
+-->
+<svg xmlns="http://www.w3.org/2000/svg">
+<metadata>
+Created by FontForge 20120731 at Wed Jun  8 13:33:33 2016
+ By Apache
+Created by Apache with FontForge 2.0 (http://fontforge.sf.net)
+</metadata>
+<defs>
+<font id="Flaticon" horiz-adv-x="200" >
+  <font-face 
+    font-family="Flaticon"
+    font-weight="500"
+    font-stretch="normal"
+    units-per-em="512"
+    panose-1="2 0 6 3 0 0 0 0 0 0"
+    ascent="448"
+    descent="-64"
+    bbox="0 -62.0342 512 446.034"
+    underline-thickness="25.6"
+    underline-position="-51.2"
+    unicode-range="U+0020-F100"
+  />
+    <missing-glyph />
+    <glyph glyph-name="space" unicode=" " 
+ />
+    <glyph glyph-name="uniF100" unicode="&#xf100;" horiz-adv-x="512" 
+d="M378.414 -62.0342h-244.828c-6.16699 0 -11.1719 5.00488 -11.1719 11.1719c0 6.16602 5.00488 11.1709 11.1719 11.1709h244.828c6.16699 0 11.1719 -5.00488 11.1719 -11.1709c0 -6.16699 -5.00488 -11.1719 -11.1719 -11.1719zM500.829 99.8594h-489.658
+c-6.16602 0 -11.1709 5.00488 -11.1709 11.1719c0 6.16602 5.00488 11.1709 11.1709 11.1709h489.658c6.16602 0 11.1709 -5.00488 11.1709 -11.1709c0 -6.16699 -5.00488 -11.1719 -11.1709 -11.1719zM500.829 261.775h-489.658
+c-6.16602 0 -11.1709 5.00488 -11.1709 11.1719c0 6.16602 5.00488 11.1709 11.1709 11.1709h489.658c6.16602 0 11.1709 -5.00488 11.1709 -11.1709c0 -6.16699 -5.00488 -11.1719 -11.1709 -11.1719zM500.829 423.691h-489.658
+c-6.16602 0 -11.1709 5.00488 -11.1709 11.1709c0 6.16699 5.00488 11.1719 11.1709 11.1719h489.658c6.16602 0 11.1709 -5.00488 11.1709 -11.1719c0 -6.16602 -5.00488 -11.1709 -11.1709 -11.1709z" />
+  </font>
+</defs></svg>

@@ -1,0 +1,20 @@
+
+.gap-payments {
+    padding-left: 12px;
+}
+.inactive {
+    color: #54667a!important;
+    font-weight: 100!important;
+}
+.logo-style {
+    padding-top: 8px;
+    width: 210px;
+    height: 57px;
+    padding-left: 6px;
+}
+
+@media (min-width: 576px){
+    .modal-dialog {
+        margin: 140px auto;
+    }
+}

@@ -1,0 +1,52 @@
+/* here you can put your own css to customize and override the theme */
+
+/***
+Rounded Portlets
+***/
+/*
+.portlet {
+	border-radius: 4px !important;
+}
+
+.portlet .portlet-title {
+	border-radius: 4px 4px 0px 0px !important;
+}
+
+.portlet .portlet-body,
+.portlet .portlet-body .form-actions  {
+	border-radius: 0px 0px 4px 4px !important;
+}
+*/
+.merchant-notifications li .col2{
+	width: 104px;
+	margin-left: -111px;
+}
+
+.merchant-notifications li.unread{
+	background-color: #eeeeee;
+	color: #333333;
+}
+
+
+.business-top-title{
+	padding: 28px 20px;
+	float: left;
+	color: #fff;
+	font-size: 15.5px;
+	text-transform: uppercase;
+}
+
+.merchant-businesses, .merchant-businesses i{
+	color: #ffffff !important;
+}
+
+@media (max-width: 337px) {
+	.page-header.navbar .page-logo{
+		width: 53%;
+	}
+}
+@media (min-width: 992px) {
+	.red.btn.comment-extend{
+		width: 90px;
+	}
+}
